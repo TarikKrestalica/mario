@@ -1,3 +1,6 @@
+# HI TARIK!!
+
+
 # Super Mario
 import pygame, sys
 from settings import *
