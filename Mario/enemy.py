@@ -2,6 +2,8 @@ import pygame, os
 from Tile import AnimatedTile
 from random import randint
 
+# comment just to show what we did
+
 class Enemy(AnimatedTile):
     def __init__(self, size, x, y):
         super().__init__(size, x, y, os.path.join(os.environ.get("HOME"), "Downloads/2 - Level", 'graphics/enemy/run'))
